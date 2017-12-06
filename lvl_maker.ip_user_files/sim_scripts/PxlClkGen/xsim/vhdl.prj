@@ -1,0 +1,2 @@
+vhdl xil_defaultlib "../../../ip/PxlClkGen/PxlClkGen_sim_netlist.vhdl" 
+nosort

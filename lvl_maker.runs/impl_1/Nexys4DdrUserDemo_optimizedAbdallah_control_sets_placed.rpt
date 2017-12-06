@@ -1,0 +1,174 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Tue Dec  5 18:10:43 2017
+| Host         : LAPTOP-EUUH1OTD running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Nexys4DdrUserDemo_optimizedAbdallah_control_sets_placed.rpt
+| Design       : Nexys4DdrUserDemo_optimizedAbdallah
+| Device       : xc7a100t
+----------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |   104 |
+| Unused register locations in slices containing registers |   614 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             140 |           54 |
+| No           | No                    | Yes                    |               4 |            4 |
+| No           | Yes                   | No                     |              93 |           44 |
+| Yes          | No                    | No                     |             107 |           34 |
+| Yes          | No                    | Yes                    |              44 |           44 |
+| Yes          | Yes                   | No                     |             206 |           65 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++----------------------------------------+----------------------------------------------------------------------+---------------------------------------------------------------+------------------+----------------+
+|              Clock Signal              |                             Enable Signal                            |                        Set/Reset Signal                       | Slice Load Count | Bel Load Count |
++----------------------------------------+----------------------------------------------------------------------+---------------------------------------------------------------+------------------+----------------+
+|  clk_i_IBUF_BUFG                       | col/moveCount0                                                       | col/moveCount_reg[7]_LDC_i_1_n_0                              |                1 |              1 |
+|  clk_i_IBUF_BUFG                       | col/moveCount0                                                       | col/moveCount_reg[7]_LDC_i_2_n_0                              |                1 |              1 |
+|  clk_i_IBUF_BUFG                       | col/moveCount0                                                       | col/moveCount_reg[8]_LDC_i_1_n_0                              |                1 |              1 |
+|  clk_i_IBUF_BUFG                       | col/moveCount0                                                       | col/moveCount_reg[8]_LDC_i_2_n_0                              |                1 |              1 |
+|  clk_i_IBUF_BUFG                       | col/moveCount0                                                       | col/moveCount_reg[9]_LDC_i_1_n_0                              |                1 |              1 |
+|  clk_i_IBUF_BUFG                       | col/moveCount0                                                       | col/moveCount_reg[9]_LDC_i_2_n_0                              |                1 |              1 |
+|  col/collide                           |                                                                      | col/collide11_out                                             |                1 |              1 |
+|  col/counter2_reg[0]_LDC_i_1_n_0       |                                                                      | col/counter2_reg[0]_LDC_i_2_n_0                               |                1 |              1 |
+|  col/counter2_reg[1]_LDC_i_1_n_0       |                                                                      | col/counter2_reg[1]_LDC_i_2_n_0                               |                1 |              1 |
+|  col/counter2_reg[2]_LDC_i_1_n_0       |                                                                      | col/counter2_reg[2]_LDC_i_2_n_0                               |                1 |              1 |
+|  col/counter2_reg[3]_LDC_i_1_n_0       |                                                                      | col/counter2_reg[3]_LDC_i_2_n_0                               |                1 |              1 |
+|  col/moveCount_reg[0]_LDC_i_1_n_0      |                                                                      | col/moveCount_reg[0]_LDC_i_2_n_0                              |                1 |              1 |
+|  col/moveCount_reg[10]_LDC_i_1_n_0     |                                                                      | col/moveCount_reg[10]_LDC_i_2_n_0                             |                1 |              1 |
+|  clk_i_IBUF_BUFG                       | col/moveCount0                                                       | col/moveCount_reg[15]_LDC_i_2_n_0                             |                1 |              1 |
+|  col/moveCount_reg[11]_LDC_i_1_n_0     |                                                                      | col/moveCount_reg[11]_LDC_i_2_n_0                             |                1 |              1 |
+|  col/moveCount_reg[12]_LDC_i_1_n_0     |                                                                      | col/moveCount_reg[12]_LDC_i_2_n_0                             |                1 |              1 |
+|  col/moveCount_reg[13]_LDC_i_1_n_0     |                                                                      | col/moveCount_reg[13]_LDC_i_2_n_0                             |                1 |              1 |
+|  col/moveCount_reg[14]_LDC_i_1_n_0     |                                                                      | col/moveCount_reg[14]_LDC_i_2_n_0                             |                1 |              1 |
+|  col/moveCount_reg[16]_LDC_i_1_n_0     |                                                                      | col/moveCount_reg[16]_LDC_i_2_n_0                             |                1 |              1 |
+|  col/moveCount_reg[17]_LDC_i_1_n_0     |                                                                      | col/moveCount_reg[17]_LDC_i_2_n_0                             |                1 |              1 |
+|  col/moveCount_reg[18]_LDC_i_1_n_0     |                                                                      | col/moveCount_reg[18]_LDC_i_2_n_0                             |                1 |              1 |
+|  col/moveCount_reg[19]_LDC_i_1_n_0     |                                                                      | col/moveCount_reg[19]_LDC_i_2_n_0                             |                1 |              1 |
+|  col/moveCount_reg[1]_LDC_i_1_n_0      |                                                                      | col/moveCount_reg[1]_LDC_i_2_n_0                              |                1 |              1 |
+|  col/moveCount_reg[2]_LDC_i_1_n_0      |                                                                      | col/moveCount_reg[2]_LDC_i_2_n_0                              |                1 |              1 |
+|  col/moveCount_reg[3]_LDC_i_1_n_0      |                                                                      | col/moveCount_reg[3]_LDC_i_2_n_0                              |                1 |              1 |
+|  col/moveCount_reg[4]_LDC_i_1_n_0      |                                                                      | col/moveCount_reg[4]_LDC_i_2_n_0                              |                1 |              1 |
+|  col/moveCount_reg[5]_LDC_i_1_n_0      |                                                                      | col/moveCount_reg[5]_LDC_i_2_n_0                              |                1 |              1 |
+|  col/moveCount_reg[6]_LDC_i_1_n_0      |                                                                      | col/moveCount_reg[6]_LDC_i_2_n_0                              |                1 |              1 |
+|  col/moveCount_reg[7]_LDC_i_1_n_0      |                                                                      | col/moveCount_reg[7]_LDC_i_2_n_0                              |                1 |              1 |
+|  col/moveCount_reg[8]_LDC_i_1_n_0      |                                                                      | col/moveCount_reg[8]_LDC_i_2_n_0                              |                1 |              1 |
+|  col/moveCount_reg[9]_LDC_i_1_n_0      |                                                                      | col/moveCount_reg[9]_LDC_i_2_n_0                              |                1 |              1 |
+|  clk_i_IBUF_BUFG                       |                                                                      | col/counter2_reg[0]_LDC_i_2_n_0                               |                1 |              1 |
+|  clk_i_IBUF_BUFG                       |                                                                      | col/counter2_reg[1]_LDC_i_2_n_0                               |                1 |              1 |
+|  clk_i_IBUF_BUFG                       |                                                                      | col/counter2_reg[2]_LDC_i_2_n_0                               |                1 |              1 |
+|  clk_i_IBUF_BUFG                       |                                                                      | col/counter2_reg[3]_LDC_i_2_n_0                               |                1 |              1 |
+|  clk_i_IBUF_BUFG                       | col/moveCount0                                                       | col/counter2_reg[0]_LDC_i_1_n_0                               |                1 |              1 |
+|  clk_i_IBUF_BUFG                       | col/moveCount0                                                       | col/counter2_reg[1]_LDC_i_1_n_0                               |                1 |              1 |
+|  clk_i_IBUF_BUFG                       | col/moveCount0                                                       | col/counter2_reg[2]_LDC_i_1_n_0                               |                1 |              1 |
+|  clk_i_IBUF_BUFG                       | col/moveCount0                                                       | col/counter2_reg[3]_LDC_i_1_n_0                               |                1 |              1 |
+|  clk_i_IBUF_BUFG                       | col/moveCount0                                                       | col/moveCount_reg[0]_LDC_i_1_n_0                              |                1 |              1 |
+|  clk_i_IBUF_BUFG                       | col/moveCount0                                                       | col/moveCount_reg[0]_LDC_i_2_n_0                              |                1 |              1 |
+|  clk_i_IBUF_BUFG                       | col/moveCount0                                                       | col/moveCount_reg[10]_LDC_i_1_n_0                             |                1 |              1 |
+|  clk_i_IBUF_BUFG                       | col/moveCount0                                                       | col/moveCount_reg[10]_LDC_i_2_n_0                             |                1 |              1 |
+|  clk_i_IBUF_BUFG                       | col/moveCount0                                                       | col/moveCount_reg[11]_LDC_i_1_n_0                             |                1 |              1 |
+|  clk_i_IBUF_BUFG                       | col/moveCount0                                                       | col/moveCount_reg[11]_LDC_i_2_n_0                             |                1 |              1 |
+|  clk_i_IBUF_BUFG                       | col/moveCount0                                                       | col/moveCount_reg[12]_LDC_i_1_n_0                             |                1 |              1 |
+|  clk_i_IBUF_BUFG                       | col/moveCount0                                                       | col/moveCount_reg[12]_LDC_i_2_n_0                             |                1 |              1 |
+|  clk_i_IBUF_BUFG                       | col/moveCount0                                                       | col/moveCount_reg[13]_LDC_i_1_n_0                             |                1 |              1 |
+|  clk_i_IBUF_BUFG                       | col/moveCount0                                                       | col/moveCount_reg[13]_LDC_i_2_n_0                             |                1 |              1 |
+|  clk_i_IBUF_BUFG                       | col/moveCount0                                                       | col/moveCount_reg[14]_LDC_i_1_n_0                             |                1 |              1 |
+|  clk_i_IBUF_BUFG                       | col/moveCount0                                                       | col/moveCount_reg[14]_LDC_i_2_n_0                             |                1 |              1 |
+|  clk_i_IBUF_BUFG                       | col/moveCount0                                                       | col/moveCount_reg[15]_LDC_i_1_n_0                             |                1 |              1 |
+|  col/moveCount_reg[15]_LDC_i_1_n_0     |                                                                      | col/moveCount_reg[15]_LDC_i_2_n_0                             |                1 |              1 |
+|  clk_i_IBUF_BUFG                       | col/moveCount0                                                       | col/moveCount_reg[16]_LDC_i_1_n_0                             |                1 |              1 |
+|  clk_i_IBUF_BUFG                       | col/moveCount0                                                       | col/moveCount_reg[16]_LDC_i_2_n_0                             |                1 |              1 |
+|  clk_i_IBUF_BUFG                       | col/moveCount0                                                       | col/moveCount_reg[17]_LDC_i_1_n_0                             |                1 |              1 |
+|  clk_i_IBUF_BUFG                       | col/moveCount0                                                       | col/moveCount_reg[17]_LDC_i_2_n_0                             |                1 |              1 |
+|  clk_i_IBUF_BUFG                       | col/moveCount0                                                       | col/moveCount_reg[18]_LDC_i_1_n_0                             |                1 |              1 |
+|  clk_i_IBUF_BUFG                       | col/moveCount0                                                       | col/moveCount_reg[18]_LDC_i_2_n_0                             |                1 |              1 |
+|  clk_i_IBUF_BUFG                       | col/moveCount0                                                       | col/moveCount_reg[19]_LDC_i_1_n_0                             |                1 |              1 |
+|  clk_i_IBUF_BUFG                       | col/moveCount0                                                       | col/moveCount_reg[19]_LDC_i_2_n_0                             |                1 |              1 |
+|  clk_i_IBUF_BUFG                       | col/moveCount0                                                       | col/moveCount_reg[1]_LDC_i_1_n_0                              |                1 |              1 |
+|  clk_i_IBUF_BUFG                       | col/moveCount0                                                       | col/moveCount_reg[1]_LDC_i_2_n_0                              |                1 |              1 |
+|  clk_i_IBUF_BUFG                       | col/moveCount0                                                       | col/moveCount_reg[2]_LDC_i_1_n_0                              |                1 |              1 |
+|  clk_i_IBUF_BUFG                       | col/moveCount0                                                       | col/moveCount_reg[2]_LDC_i_2_n_0                              |                1 |              1 |
+|  clk_i_IBUF_BUFG                       | col/moveCount0                                                       | col/moveCount_reg[3]_LDC_i_1_n_0                              |                1 |              1 |
+|  clk_i_IBUF_BUFG                       | col/moveCount0                                                       | col/moveCount_reg[3]_LDC_i_2_n_0                              |                1 |              1 |
+|  clk_i_IBUF_BUFG                       | col/moveCount0                                                       | col/moveCount_reg[4]_LDC_i_1_n_0                              |                1 |              1 |
+|  clk_i_IBUF_BUFG                       | col/moveCount0                                                       | col/moveCount_reg[4]_LDC_i_2_n_0                              |                1 |              1 |
+|  clk_i_IBUF_BUFG                       | col/moveCount0                                                       | col/moveCount_reg[5]_LDC_i_1_n_0                              |                1 |              1 |
+|  clk_i_IBUF_BUFG                       | col/moveCount0                                                       | col/moveCount_reg[5]_LDC_i_2_n_0                              |                1 |              1 |
+|  clk_i_IBUF_BUFG                       | col/moveCount0                                                       | col/moveCount_reg[6]_LDC_i_1_n_0                              |                1 |              1 |
+|  clk_i_IBUF_BUFG                       | col/moveCount0                                                       | col/moveCount_reg[6]_LDC_i_2_n_0                              |                1 |              1 |
+|  Inst_ClkGen/inst/clk_100MHz_o         | Inst_AccelerometerCtl/ADXL_Control/CE_Cnt_Num_Reads                  | Inst_AccelerometerCtl/ADXL_Control/Reset_Cnt_Num_Reads        |                1 |              4 |
+|  Inst_ClkGen/inst/clk_100MHz_o         | Inst_AccelerometerCtl/ADXL_Control/Cmd_Reg[0]                        | Inst_AccelerometerCtl/ADXL_Control/Cmd_Reg[0][6]_i_1_n_0      |                1 |              4 |
+|  Inst_ClkGen/inst/clk_100MHz_o         | Inst_AccelerometerCtl/ADXL_Control/Cmd_Reg[1][6]_i_2_n_0             | Inst_AccelerometerCtl/ADXL_Control/Cmd_Reg[1][7]              |                2 |              5 |
+|  Inst_ClkGen/inst/clk_100MHz_o         | Inst_AccelerometerCtl/ADXL_Control/StC_Spi_Trans[9]_i_1_n_0          | Inst_AccelerometerCtl/RESET_INT_reg_n_0                       |                2 |              5 |
+|  Inst_ClkGen/inst/clk_100MHz_o         | Inst_AccelerometerCtl/ADXL_Control/SPI_Interface/StC[5]_i_1_n_0      | Inst_AccelerometerCtl/RESET_INT_reg_n_0                       |                2 |              6 |
+|  Inst_ClkGen/inst/clk_100MHz_o         | Inst_AccelerometerCtl/ADXL_Control/Cmd_Reg[2][6]_i_2_n_0             | Inst_AccelerometerCtl/ADXL_Control/Cmd_Reg[2][6]_i_1_n_0      |                2 |              6 |
+|  Inst_ClkGen/inst/clk_100MHz_o         | Inst_MouseCtl/TimeMove[7]_i_2_n_0                                    | Inst_MouseCtl/TimeMove[7]_i_1_n_0                             |                2 |              7 |
+|  Inst_ClkGen/inst/clk_100MHz_o         | Inst_AccelerometerCtl/ADXL_Control/SPI_Interface/MOSI_REG[7]_i_1_n_0 |                                                               |                2 |              7 |
+|  Inst_ClkGen/inst/clk_100MHz_o         | Inst_AccelerometerCtl/ADXL_Control/Shift_Cmd_Reg                     | Inst_AccelerometerCtl/RESET_INT_reg_n_0                       |                3 |              7 |
+|  Inst_ClkGen/inst/clk_100MHz_o         | Inst_AccelerometerCtl/ADXL_Control/StC_Spi_SendRec[6]_i_1_n_0        | Inst_AccelerometerCtl/RESET_INT_reg_n_0                       |                3 |              7 |
+|  Inst_ClkGen/inst/clk_100MHz_o         | Inst_AccelerometerCtl/ADXL_Control/SPI_Interface/SHIFT_TICK_IN       |                                                               |                1 |              8 |
+|  Inst_ClkGen/inst/clk_100MHz_o         | Inst_AccelerometerCtl/ADXL_Control/SPI_Interface/EN_LOAD_DOUT        |                                                               |                1 |              8 |
+|  Inst_ClkGen/inst/clk_100MHz_o         |                                                                      | Inst_AccelerometerCtl/Accel_Calculation/ACCEL_Y_CLIP[8]       |                2 |              9 |
+|  Inst_ClkGen/inst/clk_100MHz_o         |                                                                      | Inst_AccelerometerCtl/ADXL_Control/SPI_Interface/SCLK_2X_DIV0 |                3 |              9 |
+|  Inst_ClkGen/inst/clk_100MHz_o         |                                                                      | Inst_AccelerometerCtl/ADXL_Control/Cnt_SS_Inactive0           |                3 |             10 |
+|  Inst_ClkGen/inst/clk_100MHz_o         |                                                                      | Inst_AccelerometerCtl_i_1_n_0                                 |                3 |             11 |
+|  Inst_ClkGen/inst/clk_100MHz_o         | Inst_AccelerometerCtl/ADXL_Control/Data_Ready                        | Inst_AccelerometerCtl/RESET_INT_reg_n_0                       |                4 |             11 |
+|  Inst_ClkGen/inst/clk_100MHz_o         | Inst_AccelerometerCtl/ADXL_Control/StC_Adxl_Ctrl[11]_i_1_n_0         | Inst_AccelerometerCtl/RESET_INT_reg_n_0                       |                7 |             11 |
+|  Inst_ClkGen/inst/clk_100MHz_o         | Inst_MouseCtl/positionY                                              |                                                               |                3 |             12 |
+|  Inst_VGA/Inst_PxlClkGen/inst/CLK_OUT1 |                                                                      | Inst_VGA/eqOp4_in                                             |                3 |             12 |
+|  Inst_VGA/Inst_PxlClkGen/inst/CLK_OUT1 | Inst_VGA/eqOp4_in                                                    | Inst_VGA/v_cntr_reg0                                          |                3 |             12 |
+|  Inst_ClkGen/inst/clk_100MHz_o         | Inst_MouseCtl/positionX                                              |                                                               |                3 |             12 |
+|  Inst_ClkGen/inst/clk_100MHz_o         | Inst_AccelerometerCtl/ADXL_Control/Data_Ready_1                      | Inst_AccelerometerCtl/RESET_INT_reg_n_0                       |                4 |             12 |
+|  Inst_ClkGen/inst/clk_100MHz_o         | Inst_AccelerometerCtl/ADXL_Control/CE_Cnt_Num_Reads                  | Inst_AccelerometerCtl/ADXL_Control/ACCEL_X_SUM0               |                4 |             16 |
+|  Inst_ClkGen/inst/clk_100MHz_o         |                                                                      | Inst_AccelerometerCtl/ADXL_Control/Reset_Sample_Rate_Div      |                5 |             17 |
+|  Inst_VGA/Inst_PxlClkGen/inst/CLK_OUT1 | Inst_VGA/v_sync_reg                                                  |                                                               |               14 |             24 |
+|  Inst_VGA/Inst_PxlClkGen/inst/CLK_OUT1 |                                                                      |                                                               |                9 |             29 |
+|  Inst_ClkGen/inst/clk_100MHz_o         | Inst_AccelerometerCtl/ADXL_Control/Shift_Data_Reg                    |                                                               |               11 |             42 |
+|  clk_i_IBUF_BUFG                       |                                                                      |                                                               |               12 |             45 |
+|  Inst_ClkGen/inst/clk_100MHz_o         |                                                                      |                                                               |               33 |             66 |
+|  Inst_VGA/Inst_PxlClkGen/inst/CLK_OUT1 | Inst_VGA/ACTIVE_I                                                    | Inst_VGA/Inst_OverlayCtrl/addr_cntr_reg_rep[17]_i_1_n_0       |               25 |             93 |
++----------------------------------------+----------------------------------------------------------------------+---------------------------------------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                    73 |
+| 4      |                     2 |
+| 5      |                     2 |
+| 6      |                     2 |
+| 7      |                     4 |
+| 8      |                     2 |
+| 9      |                     2 |
+| 10     |                     1 |
+| 11     |                     3 |
+| 12     |                     5 |
+| 16+    |                     8 |
++--------+-----------------------+
+
+

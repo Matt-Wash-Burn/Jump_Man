@@ -1,0 +1,1 @@
+PxlClkGen_sim_netlist.vhdl,vhdl,xil_defaultlib,../../../ip/PxlClkGen/PxlClkGen_sim_netlist.vhdl,incdir="../../../../lvl_maker.srcs/sources_1/ip/PxlClkGen"
